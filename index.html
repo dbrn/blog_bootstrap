@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0"
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a1b59dd95d.js" crossorigin="anonymous"></script>
+    <title>Blog</title>
+  </head>
+  <body>
+    <a href="#main" class="sr-only sr-only-focusable">Skip to main content</a>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container">
+        <a href="#" class="navbar-brand"><i class="fas fa-bold fa-fw mr-n1"></i>log Title</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarcollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item dropdown dropdown-sm"><a href="#" class="nav-link dropdown-toggle" id="blogdropdown" data-toggle="dropdown">Blog</a>
+              <div class="dropdown-menu">
+                <a href="blog-overview-list" class="dropdown-item">List</a>
+                <a href="blog-overview-grid " class="dropdown-item">Grid</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown dropdown-sm"><a href="#" class="nav-link dropdown-toggle" id="blogdropdown" data-toggle="dropdown">Archive</a>
+              <div class="dropdown-menu">
+                <h6 class="dropdown-header">2018</h6>
+                <a href="#" class="dropdown-item">January</a>
+                <a href="#" class="dropdown-item">February</a>
+                <a href="#" class="dropdown-item">March</a>
+                <a href="#" class="dropdown-item">April</a>
+                <a href="#" class="dropdown-item">May</a>
+                <a href="#" class="dropdown-item">June</a>
+                <a href="#" class="dropdown-item">July</a>
+                <a href="#" class="dropdown-item">August</a>
+                <a href="#" class="dropdown-item">September</a>
+                <a href="#" class="dropdown-item">October</a>
+                <a href="#" class="dropdown-item">November</a>
+                <a href="#" class="dropdown-item">December</a>
+                <div class="dropdown-divider">
+                </div>
+                <h6 class="dropdown-header">2017</h6>
+                <a href="#" class="dropdown-item">January</a>
+                <a href="#" class="dropdown-item">February</a>
+                <a href="#" class="dropdown-item">March</a>
+                <a href="#" class="dropdown-item">April</a>
+                <a href="#" class="dropdown-item">May</a>
+                <a href="#" class="dropdown-item">June</a>
+                <a href="#" class="dropdown-item">July</a>
+                <a href="#" class="dropdown-item">August</a>
+                <a href="#" class="dropdown-item">September</a>
+                <a href="#" class="dropdown-item">October</a>
+                <a href="#" class="dropdown-item">November</a>
+                <a href="#" class="dropdown-item">December</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          </ul>
+          <form class="form-inline mt-2 mt-sm-0 mb-2 mb-sm-0">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" required>
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-secondary px-3"><i class="fas fa-fw fa-search"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-3 my-sm-5">
+      <div class="row">
+        <div class="col-12 col-lg-8">
+          <article class="mb-3">
+            <header class="mb-3">
+              <a href="#" class="badge badge-primary">Category</a>
+              <h1>Text Blog Title</h1>
+              <div>
+                <a href="#" class="text-decoration-none">Author Name</a>
+              </div>
+              <div class="small">
+                Posted On: <time datetime="2019-14-10T17:51">October 14th 2019, 17:51</time>
+              </div>
+              <div class="small">
+                <span class="badge badge-primary"><i class="far fa-thumbs-up fa-fw"></i>&nbsp;13</span> <span class="badge badge-primary"><i class="far fa-comments fa-fw"></i>&nbsp;3</span>
+              </div>
+              <div class="small">
+                <a href="#" class="badge badge-secondary">#TAG</a>
+                <a href="#" class="badge badge-secondary">#LORE</a>
+                <a href="#" class="badge badge-secondary">#SHITPOST</a>
+                <a href="#" class="badge badge-secondary">#LOL</a>
+                <a href="#" class="badge badge-secondary">#RANDOM</a>
+                <a href="#" class="badge badge-secondary">#BLOG</a>
+              </div>
+            </header>
+            <section id="main" class="mb-3">
+              <figure class="figure">
+                <img src="http:/placehold.it/800x600" class="figure-img img-fluid" alt="Figure 1">
+                <figcaption class="figure-caption">
+                  <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="small mb-0"><i class="fas fa-camera fa-fw0"></i>&nbsp;Giuanin Pinela</p>
+                </figcaption>
+              </figure>
+              <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <blockquote class="blockquote">
+                <p>Meglio un culo gelato che un gelato nel culo.</p>
+                <footer class="blockquote-footer">
+                  Rag. Guazzoni
+                </footer>
+              </blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <h2>Subheading</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+            <section id="comments" class="small">
+              <button type="button" class="btn btn-lg btn-primary mb-3"><i class="far fa-thumbs-up fa-fw"></i></button>
+              <h2 class="mb-3 mt-2">Comments</h2>
+              <div class="media mb-2">
+                <img src="http://placehold.it/64x64" alt="media object image" class="mr-3 rounded-circle">
+                <div class="media-body">
+                  <p><a href="mailto:fake@email.com">Author Name</a> (Posted On: <date datetime="2019-10-14T18:08">14/10/19 18:08</date>)</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <hr>
+              <div class="media mb-2">
+                <img src="http://placehold.it/64x64" alt="media object image" class="mr-3 rounded-circle">
+                <div class="media-body">
+                  <p><a href="mailto:fake@email.com">Author Name</a> (Posted On: <date datetime="2019-10-14T18:08">14/10/19 18:08</date>)</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <hr>
+              <div class="media mb-2">
+                <img src="http://placehold.it/64x64" alt="media object image" class="mr-3 rounded-circle">
+                <div class="media-body">
+                  <p><a href="mailto:fake@email.com">Author Name</a> (Posted On: <date datetime="2019-10-14T18:08">14/10/19 18:08</date>)</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="media mb-2">
+                    <img src="http://placehold.it/64x64" alt="media object image" class="mr-3 rounded-circle">
+                    <div class="media-body">
+                      <p><a href="mailto:fake@email.com">Author Name</a> (Posted On: <date datetime="2019-10-14T18:08">14/10/19 18:08</date>)</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                  <div class="media mb-2">
+                    <img src="http://placehold.it/64x64" alt="media object image" class="mr-3 rounded-circle">
+                    <div class="media-body">
+                      <p><a href="mailto:fake@email.com">Author Name</a> (Posted On: <date datetime="2019-10-14T18:08">14/10/19 18:08</date>)</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <form>
+                <div class="row">
+                  <div class="col-12 col-sm-6">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" name="name" class="form-control" id="name" required>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <div class="form-group">
+                      <label for="Email">Email</label>
+                      <input type="email" name="Email" class="form-control" id="Email" required>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label for="comment">Comment</label>
+                      <textarea name="comment" rows="5" class="form-control" required id="comment" placeholder="Comment goes here..."></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-primary">Comment</button>
+                      <button type="reset" class="btn btn-danger">Reset</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </section>
+          </article>
+        </div>
+        <div class="col-12 col-lg-4">
+          <aside>
+            <h2 class="mb-3">About the Author</h2>
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="http://placehold.it/200x200" class="img-fluid rounded-circle" alt="Image of the Author">
+                  <ul class="list-inline">
+                    <li class="list-inline-item small"><a href="#" class="text-decoration-none"><i class="fab fa-twitter-square fa-fw mr-0"></i>Twitter</a></li>
+                    <li class="list-inline-item small"><a href="#" class="text-decoration-none"><i class="fab fa-linkedin fa-fw mr-0"></i>LinkedIn</a></li>
+                  </ul>
+                </div>
+                <h5><a href="#" class="text-decoration-none">Author Name</a></h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <h2 class="mb-3">Related Posts</h2>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="badge badge-primary float-right">Category</div>
+                <h5>Blog Post Title</h5>
+                <p class="small mb-2">Author Name (<date datetime="2019-10-14T16:42">October 14th 2019 16:42</date>)</p>
+                <div class="small mb-2">
+                  <span class="badge badge-primary"><i class="far fa-thumbs-up fa-fw"></i>&nbsp;13</span>
+                  <span class="badge badge-primary"><i class="far fa-comments fa-fw"></i>&nbsp;3</span>
+                </div>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </a>
+            </div>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="badge badge-primary float-right">Category</div>
+                <h5>Blog Post Title</h5>
+                <p class="small mb-2">Author Name (<date datetime="2019-10-14T16:42">October 14th 2019 16:42</date>)</p>
+                <div class="small mb-2">
+                  <span class="badge badge-primary"><i class="far fa-thumbs-up fa-fw"></i>&nbsp;13</span>
+                  <span class="badge badge-primary"><i class="far fa-comments fa-fw"></i>&nbsp;3</span>
+                </div>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </a>
+            </div>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="badge badge-primary float-right">Category</div>
+                <h5>Blog Post Title</h5>
+                <p class="small mb-2">Author Name (<date datetime="2019-10-14T16:42">October 14th 2019 16:42</date>)</p>
+                <div class="small mb-2">
+                  <span class="badge badge-primary"><i class="far fa-thumbs-up fa-fw"></i>&nbsp;13</span>
+                  <span class="badge badge-primary"><i class="far fa-comments fa-fw"></i>&nbsp;3</span>
+                </div>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </a>
+            </div>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="badge badge-primary float-right">Category</div>
+                <h5>Blog Post Title</h5>
+                <p class="small mb-2">Author Name (<date datetime="2019-10-14T16:42">October 14th 2019 16:42</date>)</p>
+                <div class="small mb-2">
+                  <span class="badge badge-primary"><i class="far fa-thumbs-up fa-fw"></i>&nbsp;13</span>
+                  <span class="badge badge-primary"><i class="far fa-comments fa-fw"></i>&nbsp;3</span>
+                </div>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </a>
+            </div>
+            <div class="list-group mb-3">
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="badge badge-primary float-right">Category</div>
+                <h5>Blog Post Title</h5>
+                <p class="small mb-2">Author Name (<date datetime="2019-10-14T16:42">October 14th 2019 16:42</date>)</p>
+                <div class="small mb-2">
+                  <span class="badge badge-primary"><i class="far fa-thumbs-up fa-fw"></i>&nbsp;13</span>
+                  <span class="badge badge-primary"><i class="far fa-comments fa-fw"></i>&nbsp;3</span>
+                </div>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </a>
+            </div>
+            <h2 class="mb-3">Categories</h2>
+            <div class="list-group mb-3">
+              <a href="#" class="list-group-item list-group-item-action bg-primary text-white">Category 1</a>
+              <a href="#" class="list-group-item list-group-item-action bg-success text-white">Category 2</a>
+              <a href="#" class="list-group-item list-group-item-action bg-danger text-white">Category 3</a>
+              <a href="#" class="list-group-item list-group-item-action bg-warning text-white">Category 4</a>
+              <a href="#" class="list-group-item list-group-item-action bg-info text-white">Category 5</a>
+            </div>
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Tag Cloud</h5>
+                <div class="text-center">
+                  <a href="#" class="badge badge-secondary">#TAG</a>
+                  <a href="#" class="badge badge-secondary">#LORE</a>
+                  <a href="#" class="badge badge-secondary">#SHITPOST</a>
+                  <a href="#" class="badge badge-secondary">#LOL</a>
+                  <a href="#" class="badge badge-secondary">#RANDOM</a>
+                  <a href="#" class="badge badge-secondary">#BLOG</a>
+                  <a href="#" class="badge badge-secondary">#DANA</a>
+                  <a href="#" class="badge badge-secondary">#GIU</a>
+                  <a href="#" class="badge badge-secondary">#GIUDANA</a>
+                  <a href="#" class="badge badge-secondary">#BISCOTTINO</a>
+                  <a href="#" class="badge badge-secondary">#SCHMEKI</a>
+                  <a href="#" class="badge badge-secondary">#OCIO</a>
+                  <a href="#" class="badge badge-secondary">#LAMARCHESA</a>
+                  <a href="#" class="badge badge-secondary">#TIMORDE</a>
+                  <a href="#" class="badge badge-secondary">#DANHA</a>
+                  <a href="#" class="badge badge-secondary">#DANACOL</a>
+                  <a href="#" class="badge badge-secondary">#CANE</a>
+                  <a href="#" class="badge badge-secondary">#MARRONE</a>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">About the Blog</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#" class="text-decoration-none">Read more&hellip;</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body bg-light">
+                <h5 class="card-title mb-4">Sign-up for our Newsletter</h5>
+                <form>
+                  <div class="input-group mb-3 shadow-sm">
+                    <span class="input-group-prepend input-group-text"><i class="fas fa-at fa-fw"></i></span>
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block shadow-sm">Sign-up</button>
+                </form>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-light small">
+      <div class="container py-3 py-sm-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">Home</a></li>
+              <li><a href="#" class="text-decoration-none">Archive</a></li>
+              <li><a href="#" class="text-decoration-none">Categories</a></li>
+              <li><a href="#" class="text-decoration-none">Tag Cloud</a></li>
+              <li><a href="#" class="text-decoration-none">Search</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h6>Information</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">About Us</a></li>
+              <li><a href="#" class="text-decoration-none">Jobs</a></li>
+              <li><a href="#" class="text-decoration-none">Investors</a></li>
+              <li><a href="#" class="text-decoration-none">News</a></li>
+              <li><a href="#" class="text-decoration-none">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h6>Follow Us</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none"><i class="fab fa-twitter-square fa-fw"></i>&nbsp;Twitter</a></li>
+              <li><a href="#" class="text-decoration-none"><i class="fab fa-facebook-square fa-fw"></i>&nbsp;Facebook</a></li>
+              <li><a href="#" class="text-decoration-none"><i class="fab fa-instagram fa-fw"></i>&nbsp;Instagram</a></li>
+              <li><a href="#" class="text-decoration-none"><i class="fab fa-linkedin fa-fw"></i>&nbsp;LinkedIn</a></li>
+              <li><a href="#" class="text-decoration-none"><i class="fab fa-youtube fa-fw"></i>&nbsp;YouTube</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h6>Contact Us</h6>
+            <address>
+              <strong>Blog Name</strong><br>
+              Via delle Droghe, 13<br>
+              21547 Drogatown (DO)<br>
+              ITALY <br>
+              <abbr title="Telephone">T</abbr>: <a href="tel:+393922119984" class="text-decoration-none">(+39) 392-211-9984</a><br>
+              <abbr title="Email">M</abbr>: <a href="mailto:cazzo@dibuddha.now class="text-decoration-none">info@bloggoz.now</a>
+            </address>
+          </div>
+        </div>
+        <ul class="list-inline text-center mt-3">
+          <li class="list-inline-item">&copy;2019 Blog Website.</li>
+          <li class="list-inline-item">All rights reserved.</li>
+          <li class="list-inline-item"><a href="#" class="text-decoration-none">Terms of use and Privacy policy</a>.</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
